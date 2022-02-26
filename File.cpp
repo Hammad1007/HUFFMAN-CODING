@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <fstream>   // library to handle file handling
 #include <queue>     // in built queues
-#include <stack>
+#include <stack>     // in built stack
 using namespace std;
 
 // Global Functions used in main 
