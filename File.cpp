@@ -1,8 +1,8 @@
-#include <iostream>
-#include <algorithm>
-#include <fstream>   // library to handle file handling
-#include <queue>     // in built queues
-#include <stack>     // in built stack
+#include <iostream>	// cin and cout functions
+#include <algorithm>	
+#include <fstream>   	// library to handle file handling
+#include <queue>     	// in built queues
+#include <stack>     	// in built stack
 using namespace std;
 
 // Global Functions used in main 
@@ -10,6 +10,7 @@ void Welcome();
 void Line();
 void End();
 
+// Node class starts here
 class Node {
 public:
 	int freq;     // frequency of character
@@ -23,7 +24,6 @@ public:
 		rchild = nullptr;
 		lchild = nullptr;
 		freq = 0;
-
 	}
 
 	// Paramterised Constructor
