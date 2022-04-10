@@ -1,5 +1,4 @@
 #include <iostream>	// cin and cout functions
-#include <algorithm>	
 #include <fstream>   	// library to handle file handling
 #include <queue>     	// in built queues
 #include <stack>     	// in built stack
