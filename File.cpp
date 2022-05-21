@@ -63,6 +63,7 @@ public:
 	
 }; // end of class Node
 
+
 // Templatised class, Minheap class to determine the order of elements
 template <typename t, typename u>
 class MinHeap {
